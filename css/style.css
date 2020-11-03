@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap");
+
+* {
+    font-family: 'Merriweather', serif;
+    color: #000;
+}
+
+#main {
+	margin: auto;
+	max-width: 800px;
+}
+
+#top {
+	background-color: #ddd;
+	border: 1px solid #000;
+	padding: 10px;
+}
+
+#winner {
+	text-align: center;
+	display: none;
+}
+
+#moves {
+	font-size: initial;
+	display: block;
+	color: #000;
+}
+
+.gameboard {
+	margin-top: 30px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text-center {
+	text-align: center;
+}
+
+.superhappy {
+	color: #28a745 !important;
+	font-size: 72px;
+}
+
+.button {
+	margin-top: 4px;
+	border: 1px solid #28a745;
+	border-radius: 5px;
+	background-color: #28a745;
+	padding: 4px;
+	cursor: pointer;
+}
+
+ul#list {
+	list-style-type: none;
+	padding: 2px;
+}
+
+ul#list li {
+	padding: 8px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	background-color: #aed6f1;
+	margin-bottom: 2px;
+	cursor: move;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+ul#list li:active {
+	cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}

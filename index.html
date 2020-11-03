@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Simple sorting game</title>
+<link rel="apple-touch-icon" sizes="180x180" href="./img/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./img/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./img/icon/favicon-16x16.png">
+<link rel="manifest" href="./img/icon/site.webmanifest">
+<link rel="stylesheet" href="./css/style.css">
+<script type="text/javascript" src="./js/game.js"></script>
+</head>
+<body>
+<div id="main">
+  <div id="top">
+  	<h1>Sorting Game</h1>
+  	<p>The following senetences are our of order. Drag and drop them in the correct order</p>
+  </div>
+  <div id="gameboard" class="gameboard">
+  	<ul id="list"></ul>
+  	<div id="winner">
+  		<span class="superhappy">Great Job!!!</span>
+  		<span id="moves"></span>
+  		<button type="button" class="button" onClick="restart()" alt="Click to restart" title="Click to restart">Play Again?</button>
+  	</div>
+  </div>
+  <div class="gameboard text-center">
+  	<h3>Last 5 Wins</h3>
+  	<div id="last5wins"></div>
+  </div>
+</div>
+
+<script>
+(function() {
+	start();
+})();
+</script>
+</body>
+</html>
