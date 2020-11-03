@@ -18,3 +18,4 @@ readable variable names and comment your code as necessary.
 
 `questions['q6'] = 'El maestro está furioso.';`
 
+Drop `index.html` into your browser, and play!
